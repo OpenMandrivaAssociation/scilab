@@ -228,7 +228,7 @@ Development files and headers for %{name}.
 %setup -q
 
 # patch requires .depend
-%apply_patches
+%autopatch -p1
 
 # .depend is required for autoreconf
 cp %{SOURCE50} modules/scicos/.depend

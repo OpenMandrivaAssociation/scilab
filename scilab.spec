@@ -10,7 +10,7 @@ Version:	6.0.1
 Release:	1
 License:	GPLv2 and BSD
 Group:		Sciences/Mathematics
-URL:		http://www.scilab.org/
+URL:		https://www.scilab.org/
 Source0:	http://www.scilab.org/download/%{version}/%{name}-%{version}-src.tar.gz
 Source1:	scilabsymbols.ttf
 Source20:	scilab.el

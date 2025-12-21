@@ -36,6 +36,11 @@ Patch301:	%{name}-6.0.0-port-to-libhdf5-1.10.patch
 Patch303:	%{name}-6.0.0-port-to-lapack-3.6.0.patch
 
 # configure
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  intltool
 
 # compiler
